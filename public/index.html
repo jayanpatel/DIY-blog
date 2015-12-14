@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>DIY-Blog</title>
+	<header>DIY Project Instructions</header>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div>
+		<button id="signup">Register</button>
+	</div>
+
+	<div id="container"> </div>
+
+	<div id="form">
+		<template id="login-form">
+			<div id="username-input">
+				Username: <input type="text" id="username" placeholder="Username">
+			</div>
+			<div id="password-input">
+				Password: <input type="password" id="password" placeholder="Password">
+			</div>
+			<div id="login-submit">
+				<input type="submit" id="login-button" value="Login">
+			</div>
+		</template>
+
+		<template id="signup-form">
+			<div id="firstname-input">
+				First Name: <input type="text" id="first-name" placeholder="First Name">
+			</div>
+			<div id="lastname-input">
+				Last Name: <input type="text" id="last-name" placeholder="Last Name">
+			</div>
+			<div id="email-input">
+				Email: <input type="text" id="email" placeholder="Email">
+			</div>
+			<div id="username-input">
+				Username: <input type="text" id="username" placeholder="Username">
+			</div>
+			<div id="password-input">
+				Password: <input type="password" id="password" placeholder="Password">
+			</div>
+			<div id="signup-submit">
+				<input type="submit" id="signup-button" value="Sign Up">
+			</div>
+		</template>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
